@@ -13,12 +13,12 @@ npm start
 #commit message
 
 * feat
-** 새로운 기능
+* * 새로운 기능
 * fix
-** 버그 수정
+* * 버그 수정
 * refactor
-** 리팩토링
+* * 리팩토링
 * file
-** 파일, 문서등 추가
+* * 파일, 문서등 추가
 * style
-** uiux css 수정
+* * uiux css 수정
