@@ -9,8 +9,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:sass": "node-sass src/statics/scss -o src/statics/css --output-style compressed",
-    "reload:sass": "node-sass src/statics/scss -o src/statics/css --output-style compressed -w",
+    "build:sass": "node-sass src/statics/scss/index.scss src/statics/css/index.css --output-style compressed",
+    "reload:sass": "node-sass src/statics/scss/index.scss src/statics/css/index.css --output-style compressed -w",
     "start": "npm run build:sass & npm run reload:sass & http-server src --port 7000"
   },
   "author": "flash",

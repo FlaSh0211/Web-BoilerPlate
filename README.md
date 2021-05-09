@@ -4,7 +4,10 @@
 ## standard js 규칙을 따름
 
 ## node-sass
-
+    "build:sass": "node-sass src/statics/scss/index.scss src/statics/css/index.css --output-style compressed",
+    "reload:sass": "node-sass src/statics/scss/index.scss src/statics/css/index.css --output-style compressed -w",
+    "build:sass": "node-sass src/statics/scss -o src/statics/css --output-style compressed",
+    "reload:sass": "node-sass src/statics/scss -o src/statics/css --output-style compressed -w",
 ## html, scss
 
 # start
