@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "http-server": "^0.12.3"
+  },
+  "name": "apple-clone",
+  "version": "1.0.0",
+  "description": "apple page css",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server src --port 7000"
+  },
+  "author": "flash",
+  "license": "ISC"
+}
