@@ -10,7 +10,7 @@
 # start
 npm start
 
-#commit message
+# commit message
 
 * feat
   * 새로운 기능
