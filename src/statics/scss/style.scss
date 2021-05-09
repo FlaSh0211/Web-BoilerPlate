@@ -2,6 +2,7 @@
 
 .global-nav {
   height: 44px;
+  padding: 0 1rem;
 }
 .global-nav-links,
 .local-nav-links {
@@ -13,6 +14,7 @@
   height: 100%;
 }
 .local-nav {
+  padding: 0 1rem;
   height: 52px;
   border-bottom: 1px solid #ddd;
 }
@@ -27,3 +29,38 @@
   font-weight: bold;
   margin-right: auto;
 }
+
+.scroll-section {
+  padding-top: 50vh;
+}
+#scroll-section {
+  &-0 h1 {
+    text-align: center;
+    font-size: 4rem;
+  }
+}
+.main-message {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  justify-content: center;
+  height: 3em;
+  font-size: 2.5rem;
+  p {
+    line-height: 1.2;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+.description {
+  padding: 0 1rem;
+  font-size: 1.2rem;
+  color: #888;
+}
+.description strong {
+  font-size: 3rem;
+  color: rgb(29,29,31);
+  float: left;
+  margin-right: .2rem;
+}
+
